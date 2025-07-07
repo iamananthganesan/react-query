@@ -11,6 +11,8 @@ Currently, two official plugins are available:
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
+
+DAY - 1 03/07/2025 
 Notes
 
 installed
@@ -44,3 +46,8 @@ you need to destructure const {data, isLoading, isError, error} = useQuery({
     queryKey: ["posts"],
     queryFn: ()=> getPosts()
 })
+
+
+DAY - 2 04/07/2025 
+install @tanstack/react-query-devtools
+<ReactQueryDevTools/>
